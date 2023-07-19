@@ -1,0 +1,38 @@
+
+html {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    }
+    
+#recomended-places-title-background {
+    height:100px; width:100%;
+    background-color:rgb(3, 64, 88);
+}
+
+#recomended-places-title-text {
+    text-align: center;
+    font-size: 70px;
+    color:white;
+}
+
+img {
+    height: 300px;
+    width: 550px;
+}
+
+p {
+    text-align:justify;
+    width: 1600px;
+}
+
+
+
+h2 {
+    height:30px; width:100%;
+    background-color:rebeccapurple;
+    color:white;
+    text-align: center;
+}
+
+h3 {
+    font-size:0.95em;
+}

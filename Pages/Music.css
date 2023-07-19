@@ -1,0 +1,33 @@
+html {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: small;
+}
+
+#recomended-music-title-div {
+    background-color:rgb(39, 163, 163);
+    height:100px;
+    width:100%;
+    margin-bottom: 50px;
+    
+    text-align: center;
+    font-size: 70px;
+    color:black;
+}
+
+
+/* Music grid box */
+#music-grid-container {
+    display: grid; 
+    grid-template-columns: 200px 200px 200px 200px 200px 200px;
+    grid-template-rows: 200px 200px;
+    column-gap: 100px;
+    row-gap: 100px;
+
+    margin:70px;
+}
+
+img {
+    height:200px;
+    width:200px;
+    object-fit: contain;
+}

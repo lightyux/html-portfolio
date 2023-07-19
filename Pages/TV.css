@@ -1,0 +1,24 @@
+html {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+.tv-title-teaser-background {
+        height:100px;
+        width:100%;
+        background-color:peru;
+    }
+
+
+    .tv-title-teaser-text{
+        text-align: center;
+        font-size: 50px;
+        color: white;
+    }
+    
+/*
+    img {
+        height: 450px;
+        width: 373.5px;
+    }
+
+   */

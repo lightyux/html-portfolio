@@ -3,61 +3,65 @@
     <head>
         <meta charset="utf-8">
         <title> My first project </title>
+        <link rel="stylesheet" href="./stylesheet.css">
 
     </head>
         
     <body>
-        <h1>My HTML profile</h1>
+        <!--MY FAMILY BOX-->
 
-        <a target="_blank" href="https://www.youtube.com/watch?v=QtXby3twMmI"><img src="./Assets/Images/Profile/Monkeyface.jpg" title="This is me!"></a>
-        <p><strong>Name:</strong> A_____ C_______</p>
-        <p><strong>Age:</strong> 28 years</p>
-        <p><strong>Location:</strong> M_______ city</p>
+        <!--ME-->
+        <div id="img-me-flex-container">
+            <img src="Assets/Images/Profile/Monkeyface.jpg" id="img-me">
+            <p class="me-text"> Hi, this is me! My Name is A_____ C_______ and I'm 28 years old. I live in M_______ city, its a beautiful place.</p>
+        </div>
 
-    </br>
+        <!--FAMILY-->
+        <div class="family-group-container">
 
-        <h2>About me</h2>
-        <p>
-            Hello there! I am a new learner of HTML, I'm on my quest to be a full-stack programmer.
-        </p>
+            <div class="family-individual-container">
+                <img src="./Assets/Images/My family/gorrilladad.jpg" class="fam-img">
+                <p class="family-text-flex-container"> This is my dad</p>
+            </div>
 
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent maximus tristique facilisis.
-            In a nibh at massa fermentum ultrices quis eget urna. Etiam id molestie augue, ac tincidunt turpis.
-            Mauris eget maximus elit, at eleifend ex. Etiam eget fermentum risus, a lacinia enim. Vestibulum tempus 
-            est mauris, quis vehicula mi porta ut. Curabitur id augue ultricies, dapibus risus eu, sollicitudin enim.
-            Nam blandit mi lacus, maximus tempus lectus maximus varius. Praesent ac risus nisl. Morbi imperdiet, diam 
-            vitae rutrum lobortis, tortor nunc ullamcorper enim, ac efficitur leo quam et leo. Nam volutpat nunc ipsum,
-            vitae molestie justo finibus sit amet.
-        </p> 
+            <div class="family-individual-container">
+                <img src="./Assets/Images/My family/orangutanmom.png" class="fam-img">
+                <p class="family-text-flex-container">This is my mom</p>
+            </div>
+   
+            <div class="family-individual-container">
+                <img src="./Assets/Images/My family/aulladorsister.jpg" class="fam-img">
+                <p class="family-text-flex-container">This is my sister</p>
+           </div>
+    
+            <div class="family-individual-container">
+                <img src="./Assets/Images/My family/babuinobrother.jpg" class="fam-img">
+                <p class="family-text-flex-container">This is my brother</p>
+            </div> 
+        </div>
 
-        <p>
-            Quisque leo felis, condimentum vel placerat mattis, condimentum vel elit. Aenean iaculis libero non 
-            porttitor mattis. Aliquam accumsan, sapien eget rutrum tincidunt, sapien nisl condimentum felis, 
-            eleifend iaculis orci odio sed nisl. Nam id lorem sit amet ante elementum pulvinar ut non ipsum. 
-            Nulla pulvinar eros tortor, eget tempus risus dignissim a. Pellentesque rutrum iaculis ante, sed
-            dapibus risus vulputate vitae. Nullam vitae urna tempor dolor sodales imperdiet. Sed tristique 
-            felis sed egestas dignissim. Nunc eros mi, iaculis a arcu posuere,lacinia luctus dolor. Cras tristique
-            egestas cursus. Morbi pulvinar ante arcu, eu ullamcorper dolor aliquam.
-        </p>
 
-        <p>
-            Feel free to explore!:
-        </p>
-        
-       </br>
+        <!--MY FAVORITE BOX-->
+        <!--My favorite teaser-->
+        <div class="teaser-arrow-div"> ▼ ▼ </div>
 
-        <h2>To do list:</h2>
-        <table>
-            <tr>
-                <td title="Click here for movies and shows"><a href="./Pages/Hobbies.html"> <img src="./Assets/Images/Profile/tv icon 3.png" height="200px" width="200px"> </a></td>
-                <td title="Click here for delicious food"><a href="./Pages/Foods.html"><img src="./Assets/Images/Profile/food icon 2.png" height="200px" width="200px"></a></td>
-                <td title="Click here for places to go"><a href="./Pages/Travel.html"><img src="./Assets/Images/Profile/travel icon.png" height="200px" width="200px"></a></td>
-                <td title="Click here for music I like"><a href="./Pages/Music.html"><img src="./Assets/Images/Profile/music icon 2.png" height="200px" width="200px"></a></td>
-                <td title="Click here for stars"><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="./Assets/Images/Profile/star icon.png" height="200px" width="200px"></a></td>
-            </tr>
-        </table>
+        <div class="teaser-favorite-title-div">
+            <p> My Favorites </p>
+        </div>
        
+        <!--my favorite icons and anchors-->
+        <div class="flex-container" id="flex-container1">
+            <div><a href="./Pages/TV.html">     <img src="./Assets/Images/Profile/Movies icono.png" class="icons"   title="Click here for movies and shows"></a></div>
+            <div><a href="./Pages/Foods.html">  <img src="./Assets/Images/Profile/Food icono.png"   class="icons"   title="Click here for food"></a></div>
+            <div><a href="./Pages/Travel.html"> <img src="./Assets/Images/Profile/travel icono.png" class="icons"   title="Click here for places"></a></div>
+       </div>
+
+       <div class="flex-container" id="flex-container2">
+            <div><a href="./Pages/Music.html">  <img src="./Assets/Images/Profile/music icono.png" class="icons" title="Click here for music"></a></div>
+            <div><a href="./Pages/Videogames.html">                    <img src="./Assets/Images/Profile/gaming icono.png" class="icons" title="Click here for games"></a></div>
+            <div><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="./Assets/Images/Profile/wut.png" class="icons" title="Click here for stars"></a></div>
+        </div>
+        
     </body>
 
 

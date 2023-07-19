@@ -1,0 +1,40 @@
+html {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+.food-img-container {
+    display: grid;
+
+    grid-template-columns: 328px 328px 328px;
+    grid-template-rows: 492px 492px;
+    justify-content: center;
+
+    column-gap:50px;
+    row-gap: 100px;
+    
+    margin:50px;
+}
+
+
+img {
+    height:492px;
+    width: 328px;
+    object-fit: cover;
+}
+
+
+.food-img-div {
+    height:492px;
+    width: 328px;
+
+    background-color: rgb(236, 236, 236);
+    padding: 20px;
+    padding-bottom: 40px;
+}
+
+.empty-div {
+    height: 200px;
+}
